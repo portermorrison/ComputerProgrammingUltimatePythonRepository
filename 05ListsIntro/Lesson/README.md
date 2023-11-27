@@ -46,36 +46,3 @@ Demo:
     | [4, 5, 6]  | [6, 6, 6]          |
     | [-1, 0, 1] | [1, 1, 1]          |
 
-
-Lists without Loops
-
--   make_abc()
--   repeat_thrice(num1)
--   make_copy(nums1)
--   make_reversed_copy(nums)
--   reverse_in_place(nums)
--   equal_edges(l1)
--   common_edge(l1, l2)
--   all_the_same(l1)
--   all_unique(l1)
--   increasing(l1)
--   in_alphabetical_order(l1)
--   all_true(bool_list)
--   mostly_true(bool_list)
--   sum3(l1)
--   has_negative(l1)
--   zip_together(l1, l2)
-
-Strings as iterables
-
--   has_vowel(s1)
--   is_long(s1)
--   alliteration(w1, w2)
--   is_plural(s1)
-
-Lists with Loops
-
--   count failing grades
--   count vowels
--   count
--   sum of numbers in list
