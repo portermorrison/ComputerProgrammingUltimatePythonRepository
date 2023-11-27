@@ -46,6 +46,7 @@
 
 
 1. `all_unique`
+
     Implement a function called `all_unique` that takes a list of integers as input, with a length of exactly three. The function should return `True` if all three elements in the list are different, and `False` otherwise.
 
     | Argument          | Return Value |
@@ -58,6 +59,7 @@
 
 
 1. `increasing`
+
     Implement a function called `increasing` that takes a list of integers as input, with a length of exactly three. The function should return `True` if the elements in the list are in strictly increasing order, and `False` otherwise.
 
     | Argument          | Return Value |
@@ -69,6 +71,7 @@
     | [4, 5, 6]         | `True`       |
 
 1. `all_true`
+
     Implement a function called `all_true` that takes a list of booleans as input, with a length of exactly three. The function should return `True` if all three elements in the list are `True`, and `False` otherwise.
 
     | Argument             | Return Value |
@@ -81,6 +84,7 @@
 
 
 1. `mostly_true`
+
     Implement a function called `mostly_true` that takes a list of booleans as input, with a length of exactly three. The function should return `True` if at least two elements in the list are `True`, and `False` otherwise.
 
     | Argument             | Return Value |
