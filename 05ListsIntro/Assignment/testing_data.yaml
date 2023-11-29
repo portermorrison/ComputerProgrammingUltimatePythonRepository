@@ -1,0 +1,13 @@
+make_abc:
+    - input: []
+      output: [a, b, c]
+
+equal_edges:
+    - input: [[1, 2, 3, 4, 1]]
+      output: true
+    - input: [[1, 2, 3, 4]]
+      output: false
+    - input: [[1, 0]]
+      output: false
+    - input: [[5, 5]]
+      output: true
