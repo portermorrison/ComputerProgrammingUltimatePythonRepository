@@ -4,8 +4,6 @@ import inspect
 import main
 import os
 
-
-
 def test_function_definition(test_case, module, function_name, expected_num_args):
     # check the function is defined
     function_defined = hasattr(module, function_name)
