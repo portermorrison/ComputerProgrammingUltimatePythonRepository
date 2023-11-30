@@ -1,3 +1,15 @@
+- all_true
+- any_true
+- has_negative
+- has_vowel
+- all_vowels
+
+https://codingbat.com/python/List-2
+sum13
+big_diff
+sum67
+centered_average
+has22
 
 Strings as iterables
 -   in_alphabetical_order(l1)
