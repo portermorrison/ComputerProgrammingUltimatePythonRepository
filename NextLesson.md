@@ -17,3 +17,11 @@ Strings as iterables
 -   is_long(s1)
 -   alliteration(w1, w2)
 -   is_plural(s1)
+
+https://cs50.harvard.edu/python/2022/psets/2/
+- camelCase
+- just setting up my twttr
+
+while loops
+https://cs50.harvard.edu/python/2022/psets/2/
+coke machine
