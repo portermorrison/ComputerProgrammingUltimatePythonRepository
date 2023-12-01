@@ -24,17 +24,63 @@
 # COMPLETE
 
 
-def common_edge(integers1,integers2):
-    first1 = integers1[0]
-    first2 = integers2[0]
-    last1 = integers1[-1]
-    last2 = integers2[-1]
-    if first1 == last1 or first1 == last2 or first2 == last1 or first2 == last2:
-        result = True
-    else:
-        result = False
-    return result
+# def common_edge(integers1,integers2):
+#     first1 = integers1[0]
+#     first2 = integers2[0]
+#     last1 = integers1[-1]
+#     last2 = integers2[-1]
+#     if first1 == first2 or first1 == last2 or last1 == first2 or last1 == last2:
+#         result = True
+#     else:
+#         result = False
+#     return result
 
-print(common_edge([1, 2, 4], [4, 5, 6]))
+# print(common_edge([1, 2, 4], [4, 5, 6]))
+# print(common_edge([1, 2, 4], [7, 7, 7]))
+# COMPLETE
 
-# def all_the_same(1,2,3)
+
+# def all_the_same(items):
+#     item1,item2,item3 = items
+#     if item1 == item2 and item1 == item3:
+#         result = True
+#     else:
+#         result = False
+#     return result
+# print(all_the_same([1,2,3]))
+# print(all_the_same([2,2,2]))
+# # COMPLETE
+
+
+# def all_unique(items):
+#     item1,item2,item3 = items
+#     if item1 == item2 and item1 == item3:
+#         result = False
+#     else:
+#         result = True
+#     return result
+# print(all_unique([1,2,3]))
+# print(all_unique([2,2,2]))
+# # Complete
+
+
+# def increasing(numbers):
+#     num1, num2, num3 = numbers
+#     if num1 < num2 and num2 < num3:
+#         return True
+#     else: 
+#         return False
+
+# print(increasing([1,5,9]))
+# print(increasing([3, 2, 0]))
+# Complete
+
+
+def all_true(boolean):
+    booleans = tf1, tf2, tf3,
+    if booleans == True:
+         return True
+    else: return False
+
+    print(all_true_([True,False,False]))
+    print(all_true([True,True,True]))
