@@ -53,8 +53,8 @@ class TestFunctions(unittest.TestCase):
     def test_any_true(self):
         execute_test(self, main, "any_true", self.data)
 
-    def test_most_true(self):
-        execute_test(self, main, "most_true", self.data)
+    def test_mostly_true(self):
+        execute_test(self, main, "mostly_true", self.data)
     
     def test_has_vowel(self):
         execute_test(self, main, "has_vowel", self.data)
