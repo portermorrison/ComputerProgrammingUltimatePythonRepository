@@ -32,13 +32,19 @@
 
 1. `all_the_same`
 
-   Take a list argument
+   Take a list of integers as input. The list will have at least one element. Return `True` if every number in the list is the same, and `False` otherwise
 
 1. `increasing`
 
+   Take a list of integers as input. The list will have at least two elements. Return `True` if the numbers are strictly increasing (adjacent numbers being equal doesn't count as strictly increasing), and `False` otherwise.
+
 1. `is_incrementing`
+
+   Take a list of integers as input. The list will have at least two elements. Return `True` if the numbers are incrementing (increasing by one), and `False` otherwise.
 
 1. `has_adjacent_repeat`
 
+   Take a list of integers as input. The list will have at least two elements. Return `True` if there is an "adjacent repeat", that is, if somewhere in the list the same number appears twice in a row. If there are no adjacent repeats, return `False`.
+
 1. `sum_with_skips`
-   Write a function that takes a list of numbers. Some of them are valid ACT scores, others are not. The function should calculate the mean of the numbers that are valid ACT scores (and ignore the numbers that are outside the range), then return that mean.
+   Take a list of integers as input. Return the sum of all the integers, except ignore sections of the list between instances of -1. For example, [1, 2, 3, -1, 4, 5, 6, -1, 7] should return 1 + 2 + 3 + 7 = 13.
