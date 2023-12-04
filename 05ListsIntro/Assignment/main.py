@@ -76,11 +76,28 @@
 # Complete
 
 
-def all_true(boolean):
-    booleans = tf1, tf2, tf3,
-    if booleans == True:
-         return True
-    else: return False
+# def all_true(booleans):
+#     tf1, tf2, tf3 = booleans
+#     if tf1 == True and tf2 == True and tf3 == True:
+#          return True
+#     else: 
+#         return False
+    
+# print(all_true([True,False,False]))
+# print(all_true([True,True,True]))
+# Complete
 
-    print(all_true_([True,False,False]))
-    print(all_true([True,True,True]))
+
+# def mostly_true(booleans):
+#      tf1, tf2, tf3 = booleans
+#      if tf1 == True and tf2 == True or tf1 == True and tf3 == True or tf2 == True and tf3 == True:
+#        return True
+#      else: 
+#         return False
+    
+# print(mostly_true([False,False,False]))
+# print(mostly_true([True,True,False]))
+# # Complete
+
+
+# NOTE: Mr Scislowski said it was OK to move onto the next assignment at this point (12/04)
