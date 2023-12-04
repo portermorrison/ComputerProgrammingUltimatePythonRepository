@@ -35,8 +35,20 @@ class TestFunctions(unittest.TestCase):
         with open(os.path.join(__location__, "testing_data.yaml"), "r") as file:
             cls.data = yaml.safe_load(file)
 
-    def test_count_failing_grades(self):
-        execute_test(self, main, "count_failing_grades", self.data)
+    def test_is_alliteration(self):
+        execute_test(self, main, "is_alliteration", self.data)
+
+    def test_count_vowels(self):
+        execute_test(self, main, "count_vowels", self.data)
+
+    def test_count_numbers(self):
+        execute_test(self, main, "count_numbers", self.data)
+
+    def test_count_target_letters(self):
+        execute_test(self, main, "count_target_letters", self.data)
+
+    def test_in_alphabetical_order(self):
+        execute_test(self, main, "in_alphabetical_order", self.data)
 
     
 if __name__ == '__main__':
