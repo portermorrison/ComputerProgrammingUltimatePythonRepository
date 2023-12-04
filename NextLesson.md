@@ -1,12 +1,12 @@
 Strings as iterables
+Lesson:
+
+Assignment
 -   in_alphabetical_order(l1)
+- count_vowels(s1)
 -   count_target_letters(w1, l1)
--   has_vowel(s1)
--   is_long(s1)
--   is_alliteration(w1, w2)
--   is_plural(s1)
+- is_alliteration(w1, w2)
 - count_numbers(w1)
-- count_words(text)
 
 
 Returning lists / strings by appending.
