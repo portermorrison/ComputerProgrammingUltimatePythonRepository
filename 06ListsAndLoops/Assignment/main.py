@@ -27,11 +27,34 @@
 
 # print(number_sum([1, 1, 5, 2]))
 
-# complete
+# #complete
 
 
-def average_act_score(nums):
-    valid_count = 0
-    for num in nums:
-        if num < 37 and num > 0:
-            valid_count = valid_count + 1
+# def average_act_score(nums):
+#     valid_count = 0
+#     total = 0
+#     for num in nums:
+#         if num < 37 and num > 0:
+#             valid_count = valid_count + 1
+#             total = num + total 
+            
+#     if valid_count == 0:
+#         return None
+    
+#     mean = total/valid_count
+#     return mean
+# # complete
+
+
+# def all_true(booleans):
+#     for boolean in booleans:
+#         if boolean == True:
+#             pass
+#         else:  
+#             return False
+#     return True
+
+# print(all_true([True, True, True]))
+# print(all_true([True, True, True, True, False, True]))
+# #complete
+
