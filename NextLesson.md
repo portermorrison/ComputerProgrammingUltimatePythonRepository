@@ -1,12 +1,17 @@
 
 Returning lists / strings by appending.
-- codingbat exercises
-- reverse string
+Lesson:
+
+
+
 - alternate_case
 - remove_vowels
 - toCamelCase
 - to_snake_case
 - fix uppercase/lowercase after periods
+withoutDuplicates
+validActScores
+[codingbat exercises](https://codingbat.com/python/String-2\)
 
 
 https://cs50.harvard.edu/python/2022/psets/2/
