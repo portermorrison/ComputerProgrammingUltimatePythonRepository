@@ -55,6 +55,35 @@
 #     return True
 
 # print(all_true([True, True, True]))
-# print(all_true([True, True, True, True, False, True]))
-# #complete
+# print(all_true([True, True, True, True, False, True]))def mostly true
 
+
+# def mostly_true(booleans):
+#     boolean_true = 0
+#     boolean_false = 0
+#     for boolean in booleans:
+#         if boolean == True:
+#             boolean_true = boolean_true + 1
+#         else: 
+#             boolean_false = boolean_false + 1
+    
+#     if boolean_true > boolean_false:
+#         return True
+#     else:
+#         return False
+# #Complete
+
+
+# def has_vowel(letters):
+#     is_vowel = 0
+#     non_vowel = 0
+#     for letter in letters:
+#         if letter not in ["a","e","i","o","u"]:
+#             pass
+#         else:
+#             return True
+#     return False
+
+# print(has_vowel(["f", "f", "f","f","o"]))        
+# print(has_vowel(["f", "f", "f", "f"]))
+# #Complete
