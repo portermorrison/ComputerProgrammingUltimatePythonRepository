@@ -87,3 +87,73 @@
 # print(has_vowel(["f", "f", "f","f","o"]))        
 # print(has_vowel(["f", "f", "f", "f"]))
 # #Complete
+
+
+# def all_the_same(numbers):
+#     first = numbers[0]
+#     for num in numbers:
+#         if num == first:
+#             pass
+#         else:
+#             return False
+#     return True
+    
+# print(all_the_same([1,1,1,1]))
+# print(all_the_same([1,3,4,2]))
+# #Complete
+
+
+# def increasing(numbers):
+#     previous = numbers[0] - 1
+#     for num in numbers:
+#         if num > previous:
+#             pass
+#         else:
+#             return False
+#         previous = num
+#     return True
+
+# print(increasing([1,2,3,4,5,6]))
+# print(increasing([1,2,9,8,3,6]))
+# #complete
+
+
+# def is_incrementing(numbers):
+#     previous = numbers[0] - 1
+#     for num in numbers:
+#         if num == previous + 1:
+#             pass
+#         else:
+#             return False
+#         previous = num
+#     return True
+# print(is_incrementing([1,2,3,4,5,6]))
+# print(is_incrementing([1,4,8,9,]))
+# #complete
+
+
+# def has_adjacent_repeat(numbers):
+#     previous = numbers[0]-1
+#     for num in numbers:
+#         if num != previous:
+#             pass
+#         else:
+#             return True
+#         previous = num
+#     return False
+
+# print(has_adjacent_repeat([1,1,9,0]))
+# print(has_adjacent_repeat([1,2,3,0]))
+# #complete
+
+def sum_with_skips(numbers):
+    previous = numbers[0] - 1
+    total = 0
+    ignore = False
+
+    for num in numbers:
+        if num == -1:
+            ignore == True
+        elif num == -1:
+            ignore == False
+            num = previous
