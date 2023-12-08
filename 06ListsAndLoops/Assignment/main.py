@@ -146,14 +146,20 @@
 # print(has_adjacent_repeat([1,2,3,0]))
 # #complete
 
-def sum_with_skips(numbers):
-    previous = numbers[0] - 1
-    total = 0
-    ignore = False
+# def sum_with_skips(numbers):
+#     previous = numbers[0] - 1
+#     total = 0
+#     ignore = False
 
-    for num in numbers:
-        if num == -1:
-            ignore == True
-        elif num == -1:
-            ignore == False
-            num = previous
+#     for num in numbers:
+#         if num == -1 and ignore == False:
+#             ignore = True
+#         elif num == -1 and ignore == True:
+#             ignore = False
+#         elif ignore == False:
+#             total = total + num
+    
+#     return total
+    
+# print(sum_with_skips([1,2,3,-1,4,5,6,-1,7]))
+# #Complete
