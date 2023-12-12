@@ -42,6 +42,14 @@
 
 
 def in_alphabetical_order(word):
-    previous = "a" 
+    previous = ""
     for letter in word:
-        if letter > previous
+        if letter > previous:
+            pass
+        else:
+            return False
+        previous = letter
+    return True
+        
+print(in_alphabetical_order("abbot"))
+print(in_alphabetical_order("sky"))
