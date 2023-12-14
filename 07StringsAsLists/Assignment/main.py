@@ -41,15 +41,49 @@
 # #complete
 
 
-def in_alphabetical_order(word):
-    previous = ""
-    for letter in word:
-        if letter > previous:
-            pass
-        else:
-            return False
-        previous = letter
-    return True
+# def in_alphabetical_order(word):
+#     previous = ""
+#     for letter in word:
+#         if letter >= previous:
+#             pass
+#         else:
+#             return False
+#         previous = letter
+#     return True
         
-print(in_alphabetical_order("abbot"))
-print(in_alphabetical_order("sky"))
+# print(in_alphabetical_order("abbot"))
+# print(in_alphabetical_order("sky"))
+# #complete
+
+
+# def alternate_case(word):
+#     result = ""
+#     previous = "a"
+#     for letter in word:
+#         if previous.islower():
+#             new_letter = letter.upper()
+#             result = result + letter.upper()
+#         else:
+#             new_letter = letter.lower()
+#             result = result + letter.lower()
+#         previous = new_letter
+#     return result
+
+# print(alternate_case("isuckatthis"))
+# #complete
+
+
+# def remove_vowels(word):
+#     result = ""
+#     for letter in word:
+#         if letter in ['a', 'e', 'i', 'o', 'u',]:
+#             pass
+#         else:
+#             result = result + letter
+#     return result
+ 
+# print(remove_vowels('meowing'))
+# #Completed
+
+
+def (to camel)
