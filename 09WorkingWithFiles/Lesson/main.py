@@ -39,4 +39,12 @@ cities = json.load(f)
 f.close()
 
 print(cities[0]["city"])
-print(cities[0]["state"])
+print(cities[1]["latitude"])
+
+total_population = 0
+for city in cities:
+    if city["state"] == "Kansas":
+        total_population = total_population + int(city["population"])
+
+print("population in kansas cities is:", total_population)
+
