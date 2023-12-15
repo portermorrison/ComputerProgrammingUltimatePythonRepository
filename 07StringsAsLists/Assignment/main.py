@@ -86,4 +86,29 @@
 # #Completed
 
 
-def (to camel)
+# def to_camel_case(phrase):
+#     result = ""
+#     upper_next = True
+#     for unit in phrase:
+#         if unit ==  " ":
+#             upper_next = True
+#             pass
+#         elif upper_next == True:
+#             result = result + unit.upper()
+#             upper_next = False
+#         else:
+#             result = result + unit
+#     return result
+# print(to_camel_case('me       ow bron     casuarus            '))
+# #Complete
+
+
+def to_snake_case(phrase):
+    result = ""
+    for unit in phrase:
+        if unit == " ":
+            unit.replace(" ", "_")
+        else:
+            pass
+    return result
+print(to_snake_case('john walmart'))
