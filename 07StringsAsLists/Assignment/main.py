@@ -103,12 +103,39 @@
 # #Complete
 
 
-def to_snake_case(phrase):
-    result = ""
-    for unit in phrase:
-        if unit == " ":
-            unit.replace(" ", "_")
-        else:
-            pass
-    return result
-print(to_snake_case('john walmart'))
+# def to_snake_case(phrase):
+#     result = ""
+#     for unit in phrase:
+#         if unit == " ":
+#             result = result + "_"
+#         else:
+#             result = result + unit
+#     return result
+# print(to_snake_case("john walmart"))
+# #complete
+
+
+# def without_duplicates(num_list):
+#     result = []
+#     previous = num_list[0] - 1
+#     for unit in num_list:
+#         if unit == previous:
+#             pass
+#         else:
+#             result.append(unit)
+#         previous = unit
+#     return result
+# print(without_duplicates([1,2,2,3,4,5,6,6,7,8,8,9]))
+# #complete
+
+# def filter_valid_act_scores(scores):
+#     valid_scores = []
+#     for unit in scores:
+#         if unit >0 and unit <37:
+#             valid_scores.append(unit)
+#         else:
+#             pass
+#     return valid_scores
+
+# print(filter_valid_act_scores([3, 99, 53, 24, 35]))
+# #complete
